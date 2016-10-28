@@ -6,6 +6,10 @@ export GREP_OPTIONS='--color=auto'
 # Set JDK version
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
+# Set Node Version Manager
+export NVM_DIR="/Users/genius/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
 # Set RubyGems home
 export GEM_HOME=$HOME/.gem
-export PATH=$PATH:$GEM_HOME/bin
+export PATH=$GEM_HOME/bin:$PATH
