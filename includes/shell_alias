@@ -2,3 +2,4 @@
 
 alias ls="ls -G"
 alias ll="ls -alF"
+alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
