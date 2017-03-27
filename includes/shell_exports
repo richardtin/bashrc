@@ -6,6 +6,9 @@ export GREP_OPTIONS='--color=auto'
 # Set JDK version
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
+# Set Homebrew's sbin
+export PATH=/usr/local/sbin:$PATH
+
 # Set Node Version Manager
 export NVM_DIR=~/.nvm
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -15,5 +18,5 @@ export GEM_HOME=$HOME/.gem
 export PATH=$GEM_HOME/bin:$PATH
 
 # Set SchemaCrawler home
-export SCHEMA_HOME=~/github/schemacrawler-14.10.05-main/
-export PATH=$PATH:$SCHEMA_HOME/_schemacrawler:
+export SCHEMA_HOME=~/github/schemacrawler-14.10.05-main
+export PATH=$PATH:$SCHEMA_HOME/_schemacrawler
